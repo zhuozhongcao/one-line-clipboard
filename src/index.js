@@ -5,8 +5,8 @@ import Clipboard from "clipboard";
  */
 function copy(text) {
   return new Promise(function (resolve, reject) {
-    var fakeBtn = document.createElement("button");
-    var clipboard = new Clipboard(fakeBtn, {
+    const fakeBtn = document.createElement("button");
+    const clipboard = new Clipboard(fakeBtn, {
       text: () => text,
       action: () => "copy",
       container: document.body,

@@ -1,5 +1,5 @@
 {
-  "name": "simple-clipboard",
+  "name": "one-line-clipboard",
   "version": "1.0.0",
   "description": "one function implements copy based on clipboard.js",
   "main": "dist/index.js",
